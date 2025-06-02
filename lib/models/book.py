@@ -13,5 +13,6 @@ class Book(Base):
     lendings = relationship("Lending", back_populates="book")
 
     def __repr__(self):
-        return f"<Book(title={self.title}, author={self.author}, available={self.is_available})>"
+        return f"<Book(id={self.id}, title='{self.title}', author='{self.author}', available={self.is_available})>"
+
 
