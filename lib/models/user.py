@@ -12,4 +12,4 @@ class User(Base):
     lendings = relationship("Lending", back_populates="user")
 
     def __repr__(self):
-        return f"<User(name={self.name}, email={self.email})>"
+        return f"<User(id={self.id}, name='{self.name}', email='{self.email}')>"
