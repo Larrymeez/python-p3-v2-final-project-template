@@ -8,7 +8,7 @@ session = Session()
 
 def start_cli():
     while True:
-        print("\n -Book Lending CLI-")
+        print("\n -Read Cycle CLI-")
         print("1. Add User")
         print("2. Add Book")
         print("3. View All Books")
